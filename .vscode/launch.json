@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JmxSample",
+            "request": "launch",
+            "mainClass": "wiki.monitoring.counter.JmxSample",
+            "projectName": "rest-service-complete"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-RestServiceApplication<rest-service-complete>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
